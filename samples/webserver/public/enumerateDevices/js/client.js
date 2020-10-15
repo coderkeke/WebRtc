@@ -3,7 +3,7 @@
 let audioSource = document.querySelector("select#audioSource")
 let audioOutput = document.querySelector("select#audioOutput")
 let videoSource = document.querySelector("select#videoSource")
-// let videoOutput = document.querySelector("select#videoOutput")
+let videoOutput = document.querySelector("select#videoOutput")
 
 
 //首次运行引导用户，信任域名
@@ -41,10 +41,9 @@ function gotDevices(deviceInfos) {
       audioOutput.appendChild(option)
     } else if (deviceInfo.kind === 'videoinput') {
       videoSource.appendChild(option)
+    } else if (deviceInfo.kind === 'videooutput') {
+      videoOutput.appendChild(option)
     }
-    // else if (deviceInfo.kind === 'videooutput') {
-    //   videoOutput.appendChild(option)
-    // }
   })
 }
 
