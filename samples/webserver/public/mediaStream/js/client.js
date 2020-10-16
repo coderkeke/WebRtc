@@ -1,7 +1,20 @@
 'use strict'
+//devices
 let audioSource = document.querySelector("select#audioSource")
 let audioOutput = document.querySelector("select#audioOutput")
 let videoSource = document.querySelector("select#videoSource")
+//audio
+let audioPlayer = document.querySelector('audio#audioPlayer')
+//filter
+let filtersSelect = document.querySelector('select#filter')
+//picture
+let snapshot = document.querySelector('button#snapshot')
+let picture = document.querySelector('canvas#picture')
+picture.width = 320
+picture.height = 240
+
+//constraint
+let divConstraints = document.querySelector('div#constraints')
 
 function start() {
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
@@ -27,16 +40,14 @@ function start() {
         facingMode: "environment",
         deviceId: deviceId ? deviceId : undefined
       },
-      audio: false
-
-      // {
+      // audio: {
       //   // 音频大小--------------------------------------------
-      //   volume: 0,
+      //   volume: 200,
       //   // 采样率--------------------------------------------
-      //   // sampleRate: 8000,
-      //   // sampleSize: 16,
+      //   sampleRate: 8000,
+      //   sampleSize: 16,
       //   // 回音--------------------------------------------
-      //   echoCancellation: false,
+      //   echoCancellation: true,
       //   // 是否增加音量--------------------------------------------
       //   autoGainControl: false,
       //   // 降噪--------------------------------------------
@@ -50,8 +61,9 @@ function start() {
       //   // --------------------------------------------
       //   // groupID:
       // },
+      // video: false,
+      audio: true
     }
-
     navigator.mediaDevices.getUserMedia(constraints)
       .then(gotMediaStream)
       .then(gotDevices)
@@ -64,6 +76,13 @@ let videoPlayer = document.querySelector("video#player")
 //获取视频流--------------------------------------------
 function gotMediaStream(stream) {
   videoPlayer.srcObject = stream
+  console.log(stream);
+  console.log(stream.getVideoTracks());
+  let videoTrack = stream.getVideoTracks()[0]
+  let videoConstraints = videoTrack.getSettings()
+  console.log(videoConstraints);
+  divConstraints.textContent = JSON.stringify(videoConstraints, null, 2)
+  audioPlayer.srcObject = stream
   return navigator.mediaDevices.enumerateDevices()
 }
 
@@ -90,3 +109,12 @@ function gotDevices(deviceInfos) {
 
 start()
 videoSource.onchange = start
+
+filtersSelect.onchange = function () {
+  videoPlayer.className = filtersSelect.value
+}
+
+snapshot.onclick = function () {
+  picture.className = filtersSelect.value
+  picture.getContext('2d').drawImage(videoPlayer, 0, 0, picture.width, picture.height)
+}
