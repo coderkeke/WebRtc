@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Room</title>
+</head>
+
+<body>
+  <table align="center">
+    <tr>
+      <td>
+        <label for="username">UserName:</label>
+        <input type="text" id='username'>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="room">room：</label>
+        <input type="text" id="room">
+        <button id="connect">Connect</button>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="output">Connect：</label>
+        <br />
+        <textarea rows="10" cols="50" disabled id="output"></textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="input">Input：</label>
+        <br />
+        <textarea id="input" cols="50" rows="3"></textarea>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <button disabled id="send">Send</button>
+      </td>
+    </tr>
+  </table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+  <script src="./js/client.js"></script>
+
+</body>
+
+</html>
