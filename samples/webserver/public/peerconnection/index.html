@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebRTC PeerConnection</title>
+</head>
+
+<body>
+
+  <div style="display: flex;">
+    <div style="margin:20px">
+      <h2>Local:</h2>
+      <video id="localVideo" autoplay playsinline></video>
+      <h2>Offer SDP:</h2>
+      <textarea id="offer" disabled cols="30" rows="10"></textarea>
+    </div>
+    <div style="margin:20px">
+      <h2>Remote</h2>
+      <video id="remoteVideo" autoplay playsinline></video>
+      <h2>Answer SDP:  </h2>
+      <textarea id="answer" cols="30" disabled rows="10"></textarea>
+    </div>
+  </div>
+
+  <div>
+    <button id="start">Start</button>
+    <button id="call">Call</button>
+    <button id="hangup">HungUp</button>
+  </div>
+
+  <script src="http://cdn.temasys.io/adapterjs/0.15.x/adapter.debug.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
