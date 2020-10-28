@@ -1,29 +1,162 @@
-12:49:39 INFO -
-12:50:06 INFO -
-12:51:42 INFO -
-12:53:32 INFO -
-12:55:34 INFO -
-12:55:39 INFO -
-13:02:04 INFO -
-13:02:41 INFO -
-13:02:46 INFO -
-13:03:07 INFO -
-13:03:11 INFO -
-13:04:03 INFO -
-13:04:34 INFO -
-13:04:35 INFO -
-13:04:40 INFO -
-13:04:40 INFO -
-13:07:47 INFO -
-13:07:54 INFO -
-13:07:57 INFO -
-13:08:05 INFO -
-13:08:06 INFO -
-13:08:07 INFO -
-13:08:11 INFO -
-13:08:31 INFO -
-13:09:12 INFO -
-13:09:12 INFO -
-13:09:18 INFO -
-13:09:18 INFO -
-13:09:32 INFO -
+11:50:40 DEBUG -connection ---
+11:50:40 DEBUG -56 the number of user in room is:  vqzi8u_Ee6_O6spkAAAT 1
+11:50:41 DEBUG -the number of user in room is: 0
+11:57:56 DEBUG -connection ---
+11:57:56 DEBUG -56 the number of user in room is:  aOpNlxT_XP8ppsKQAAAU 1
+11:57:57 DEBUG -the number of user in room is: 0
+12:01:33 INFO --------------success Server--------------
+12:02:22 DEBUG -connection ---
+12:02:22 DEBUG -56 the number of user in room is:  lBCMStdNmhuA4dJDAAAA 1
+13:33:52 DEBUG -connection ---
+13:33:52 DEBUG -56 the number of user in room is:  R_xfGnNdacTQ0SghAAAB 1
+13:34:19 DEBUG -connection ---
+13:34:19 DEBUG -56 the number of user in room is:  As1zYcqwrLhURhrCAAAC 1
+13:35:08 DEBUG -connection ---
+13:35:08 DEBUG -56 the number of user in room is:  nbH7LKDnBRq4kmGDAAAD 1
+13:35:18 DEBUG -connection ---
+13:35:18 DEBUG -56 the number of user in room is:  r7WDzgD14veCC-dpAAAE 2
+13:35:18 DEBUG -81 message coderke offer nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke candidate nbH7LKDnBRq4kmGDAAAD
+13:35:19 DEBUG -81 message coderke answer r7WDzgD14veCC-dpAAAE
+13:35:19 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:19 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:19 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:27 DEBUG -the number of user in room is: 1
+13:35:32 DEBUG -connection ---
+13:35:32 DEBUG -56 the number of user in room is:  HfALPn1p-KD9gXNFAAAF 2
+13:35:32 DEBUG -81 message coderke offer r7WDzgD14veCC-dpAAAE
+13:35:32 DEBUG -81 message coderke answer HfALPn1p-KD9gXNFAAAF
+13:35:32 DEBUG -81 message coderke candidate HfALPn1p-KD9gXNFAAAF
+13:35:32 DEBUG -81 message coderke candidate HfALPn1p-KD9gXNFAAAF
+13:35:32 DEBUG -81 message coderke candidate HfALPn1p-KD9gXNFAAAF
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:33 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:35:34 DEBUG -the number of user in room is: 1
+13:37:03 DEBUG -connection ---
+13:37:03 DEBUG -56 the number of user in room is:  VhWN4BPnVDHidJYnAAAG 2
+13:37:03 DEBUG -81 message coderke offer r7WDzgD14veCC-dpAAAE
+13:37:03 DEBUG -81 message coderke answer VhWN4BPnVDHidJYnAAAG
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:04 DEBUG -81 message coderke candidate VhWN4BPnVDHidJYnAAAG
+13:37:04 DEBUG -81 message coderke candidate VhWN4BPnVDHidJYnAAAG
+13:37:04 DEBUG -81 message coderke candidate VhWN4BPnVDHidJYnAAAG
+13:37:05 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:05 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:37:05 DEBUG -the number of user in room is: 1
+13:41:50 DEBUG -connection ---
+13:41:50 DEBUG -56 the number of user in room is:  4kDredvtywLZdWufAAAH 2
+13:41:50 DEBUG -81 message coderke offer r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke candidate r7WDzgD14veCC-dpAAAE
+13:41:51 DEBUG -81 message coderke answer 4kDredvtywLZdWufAAAH
+13:41:51 DEBUG -81 message coderke candidate 4kDredvtywLZdWufAAAH
+13:41:51 DEBUG -81 message coderke candidate 4kDredvtywLZdWufAAAH
+13:41:51 DEBUG -81 message coderke candidate 4kDredvtywLZdWufAAAH
+13:42:00 DEBUG -connection ---
+13:42:00 DEBUG -56 the number of user in room is:  ERQ3imUPSYVgQG0eAAAI 1
+13:42:03 DEBUG -connection ---
+13:42:03 DEBUG -56 the number of user in room is:  zwxhHg6U1wbUQUhfAAAJ 2
+13:42:03 DEBUG -81 message coderke offer ERQ3imUPSYVgQG0eAAAI
+13:42:03 DEBUG -81 message coderke answer zwxhHg6U1wbUQUhfAAAJ
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:04 DEBUG -81 message coderke candidate zwxhHg6U1wbUQUhfAAAJ
+13:42:04 DEBUG -81 message coderke candidate zwxhHg6U1wbUQUhfAAAJ
+13:42:04 DEBUG -81 message coderke candidate zwxhHg6U1wbUQUhfAAAJ
+13:42:05 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:42:05 DEBUG -81 message coderke candidate ERQ3imUPSYVgQG0eAAAI
+13:43:45 DEBUG -connection ---
+13:43:45 DEBUG -56 the number of user in room is:  vd5esTOoUjsUB_VFAAAK 2
+13:43:45 DEBUG -81 message coderke offer ERQ3imUPSYVgQG0eAAAI
+13:43:45 DEBUG -81 message coderke answer vd5esTOoUjsUB_VFAAAK
+13:43:45 DEBUG -81 message coderke candidate vd5esTOoUjsUB_VFAAAK
+13:43:45 DEBUG -81 message coderke candidate vd5esTOoUjsUB_VFAAAK
+13:43:45 DEBUG -81 message coderke candidate vd5esTOoUjsUB_VFAAAK
+14:00:40 DEBUG -connection ---
+14:00:40 DEBUG -56 the number of user in room is:  uEPSgVpujfqoYoL5AAAL 1
+14:00:55 DEBUG -connection ---
+14:00:55 DEBUG -56 the number of user in room is:  rUbrMBR49VxClSYbAAAM 2
+14:00:55 DEBUG -81 message coderke offer uEPSgVpujfqoYoL5AAAL
+14:00:55 DEBUG -81 message coderke answer rUbrMBR49VxClSYbAAAM
+14:00:55 DEBUG -81 message coderke candidate rUbrMBR49VxClSYbAAAM
+14:00:55 DEBUG -81 message coderke candidate rUbrMBR49VxClSYbAAAM
+14:00:55 DEBUG -81 message coderke candidate rUbrMBR49VxClSYbAAAM
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:00:56 DEBUG -81 message coderke candidate uEPSgVpujfqoYoL5AAAL
+14:01:49 DEBUG -connection ---
+14:01:49 DEBUG -56 the number of user in room is:  vMOqVF8GZexpoyyZAAAN 2
+14:01:49 DEBUG -81 message coderke offer uEPSgVpujfqoYoL5AAAL
+14:01:49 DEBUG -81 message coderke answer vMOqVF8GZexpoyyZAAAN
+14:01:49 DEBUG -81 message coderke candidate vMOqVF8GZexpoyyZAAAN
+14:01:49 DEBUG -81 message coderke candidate vMOqVF8GZexpoyyZAAAN
+14:01:49 DEBUG -81 message coderke candidate vMOqVF8GZexpoyyZAAAN
+14:02:07 DEBUG -connection ---
+14:02:07 DEBUG -56 the number of user in room is:  6iaMBATrI2po5yMQAAAO 1
+14:02:08 DEBUG -connection ---
+14:02:08 DEBUG -56 the number of user in room is:  wArj3zg-JPBk1cc_AAAP 2
+14:02:08 DEBUG -81 message coderke offer 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke candidate 6iaMBATrI2po5yMQAAAO
+14:02:09 DEBUG -81 message coderke answer wArj3zg-JPBk1cc_AAAP
+14:02:09 DEBUG -81 message coderke candidate wArj3zg-JPBk1cc_AAAP
+14:02:09 DEBUG -81 message coderke candidate wArj3zg-JPBk1cc_AAAP
+14:02:09 DEBUG -81 message coderke candidate wArj3zg-JPBk1cc_AAAP

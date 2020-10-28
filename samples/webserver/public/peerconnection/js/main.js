@@ -5,6 +5,8 @@ let remoteVideo = document.querySelector("video#remoteVideo");
 let btnStart = document.querySelector("button#start");
 let btnCall = document.querySelector("button#call");
 let btnHangup = document.querySelector("button#hangup");
+let offerSDP = document.querySelector("textarea#offer");
+let answerSDP = document.querySelector("textarea#answer");
 
 btnStart.onclick = start;
 btnCall.onclick = call;
@@ -50,10 +52,13 @@ function handleError(err) {
 
 function call() {
   pc1 = new RTCPeerConnection();
+  
   pc2 = new RTCPeerConnection();
+
   pc1.onicecandidate = e => {
     pc2.addIceCandidate(e.candidate);
   };
+  
   pc2.onicecandidate = e => {
     pc1.addIceCandidate(e.candidate);
   };
@@ -79,7 +84,7 @@ function getRemoteStream(streams) {
 
 function getOffer(desc) {
   pc1.setLocalDescription(desc);
-
+  offerSDP.value = desc.sdp;
   //send desc to signal
   //receive desc from signal
 
@@ -90,7 +95,7 @@ function getOffer(desc) {
 
 function getAnswer(desc) {
   pc2.setLocalDescription(desc);
-
+  answerSDP.value = desc.sdp;
   //send desc to signal
   //receive desc from signal
 
